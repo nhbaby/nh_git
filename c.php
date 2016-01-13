@@ -1,4 +1,4 @@
 <?php
 
-echo "C";
+echo "power";
 ?>
