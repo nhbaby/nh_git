@@ -1,4 +1,4 @@
 <?php
 
-echo "yaho : " . time();
+echo "vVVv : " . time();
 ?>
