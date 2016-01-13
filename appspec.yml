@@ -1,5 +1,13 @@
 version: 0.0
 os: linux
 files:
-  - source: /*.*
-    destination: /var/www/html/playground
+   - source: /
+     destination: /var/www/html/playground
+permissions:
+   - object: /var/www/html/playground
+     pattern: "**"
+     owner: ec2-user
+     group: ec2-user
+     mode: 755
+     type:
+       - file
