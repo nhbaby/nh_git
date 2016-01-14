@@ -1,8 +1,8 @@
 <?php
 //print_r($_SERVER);
-echo $_SERVER['SERVER_ADDR'];
+echo "server ipo : " . $_SERVER['SERVER_ADDR'];
 echo "<br />";
-echo time();
+echo "now time : " . date(''Y-m-d H:i:s);
 echo "<br />";
-echo "nh";
+echo "hello!!!!";
 ?>
