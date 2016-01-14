@@ -1,6 +1,6 @@
 <?php
-print_r($_SERVER);
-echo $_server['SERVER_ADDR'];
+//print_r($_SERVER);
+echo $_SERVER['SERVER_ADDR'];
 echo "<br />";
 echo time();
 echo "<br />";
